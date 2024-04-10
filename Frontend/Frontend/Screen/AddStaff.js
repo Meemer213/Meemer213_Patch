@@ -25,11 +25,12 @@ const AddStaff = ({ navigation }) => {
     });
 
 // These are the valid department numbers that are allow to be inputed
-// 0:
-// 1:
-// 2:
-// 3:
-// 4:
+// 0: General
+// 1: Information Communications Technology
+// 2: Finance
+// 3: Marketing
+// 4: Human Resources
+
   const validDepartments = ['0', '1', '2', '3', '4'];
 
    // This function checks if the entered department number is valid

@@ -2,6 +2,8 @@
 //Student No.: 880942665
 //Date: 21/01/24
 
+//This page solely focus on the login screen when the app first boots up to
+
 import React from 'react';
 import { StyleSheet, View, Image, TextInput, TouchableOpacity, Text } from 'react-native';
 
@@ -59,7 +61,7 @@ input: {
   color: 'black',
 },
 
-button: {
+button: {      //The various components involved in relation to buttons
   width: '80%',
   height: '8%',
   backgroundColor: 'black',
@@ -68,7 +70,7 @@ button: {
   marginTop: '2%',
   marginBottom: '2%',
 },
-buttonText: {
+buttonText: { //Button texts sizes, colour, and formatting
   fontSize: 18,
   color: 'white',
   fontWeight: 'bold',

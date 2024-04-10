@@ -5,6 +5,8 @@
 // This Page will solely focus on displaying the list of all the current
 // staff members within ROI into a list
 
+//Note: This page serves as the ability for users to scroll and view the staff directory list as well
+
 import { Text, View, Pressable, StyleSheet, FlatList, TouchableOpacity, Dimensions } from "react-native";
 import { useState, useEffect } from "react";
 

@@ -43,7 +43,6 @@ const EditStaffDetails = ({ route }) => {
     }
   };
 
-
   // This function updates the employee profile when you press the update button
   const handleUpdate = async () => {
     const updatedDetails = {
@@ -58,7 +57,6 @@ const EditStaffDetails = ({ route }) => {
       country: details.country || employeeDetails.Country,
     };
 
-    
     // Attempt to send updated details to the server
     try {
       const response = await fetch('http://localhost:44350/helloworldWebService1.asmx/UpdateEmployee', {
@@ -132,7 +130,7 @@ const EditStaffDetails = ({ route }) => {
               onChangeText={(text) => setDetails({ ...details, street: text })}
               style={styles.input}
               placeholder={"Street: " + (StaffDetails.Street || '')} 
-              placeholderTextColor="grey" 
+              placeholderTextColor="grey"   
             />
 
             <TextInput
