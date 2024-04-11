@@ -24,6 +24,7 @@ const App = () => {
                     headerTitleAlign: 'center', // Positions the text into the center of the screen
                     headerStyle: {
                     backgroundColor: '#941a1d', // Hex Colour for the header to match the ROI logo
+						// Adjust to a lighter red
                 },
                 headerTintColor: '#FFFFFF',
                 headerTitleStyle: {
